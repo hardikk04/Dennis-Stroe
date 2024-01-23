@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main bg-[#161616] relative">
+      <div class="page1 h-[100vh] w-full relative text-white overflow-hidden">
+        <div
+          class="loader h-[100vh] w-full bg-white fixed top-0 left-0 z-30 flex justify-end items-end"
+        >
+          <h1 class="light text-black text-[4vw] pr-[1vw]">0%</h1>
+        </div>
+        <nav
+          class="flex justify-between items-center w-full py-[1.5vw] px-[3vw]"
+        >
+          <div class="nav-left h-[2.5vh] overflow-hidden">
+            <h3 class="font-[500] nav-left1">Dennis Stroe</h3>
+            <h3 class="font-[500] nav-left2">Dennis Stroe</h3>
+          </div>
+          <div class="nav-center flex gap-[3vw]">
+            <div class="nav-elem1 h-[2.5vh] overflow-hidden">
+              <h3 class="center-text1">Portfolio</h3>
+              <h3 class="center-text2">Portfolio</h3>
+            </div>
+            <div class="nav-elem2 h-[2.5vh] overflow-hidden">
+              <h3 class="center-text3">Services</h3>
+              <h3 class="center-text4">Services</h3>
+            </div>
+            <div class="nav-elem3 h-[2.5vh] overflow-hidden">
+              <h3 class="center-text5">About</h3>
+              <h3 class="center-text6">About</h3>
+            </div>
+            <div class="nav-elem4 h-[2.5vh] overflow-hidden">
+              <h3 class="center-text7">FAQ</h3>
+              <h3 class="center-text8">FAQ</h3>
+            </div>
+            <div class="nav-elem5 h-[2.5vh] overflow-hidden">
+              <h3 class="center-text9">Contact</h3>
+              <h3 class="center-text10">Contact</h3>
+            </div>
+          </div>
+          <div class="nav-right h-[2.5vh] overflow-hidden">
+            <h3 class="nav-right1">Change theme</h3>
+            <h3 class="nav-right2">Change theme</h3>
+          </div>
+        </nav>
+        <div
+          class="page1-hero h-[75vh] w-full px-[3vw] relative flex items-center"
+        >
+          <div
+            class="page1-hero-elem1 w-[25%] pt-[3vw] h-full flex flex-col justify-between relative z-10 shrink-0"
+          >
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide text-[10.5vw] leading-none">
+                  CREATIVE
+                </div>
+                <div class="swiper-slide text-[10.5vw] leading-none">GURU</div>
+              </div>
+            </div>
+            <span class="w-[70%]">
+              Dennis Stroe is a web designer and developer based in Bucharest,
+              Romania. Also known as "Web Guru".
+            </span>
+          </div>
+          <div
+            class="page1-hero-center h-[50vh] w-[50%] rounded-md overflow-hidden relative z-0 shrink-0"
+          >
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://dennisstroe.com/assets/images/hero/3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://www.dennisstroe.com/assets/images/hero/1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://www.dennisstroe.com/assets/images/hero/2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://www.dennisstroe.com/assets/images/hero/4.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://www.dennisstroe.com/assets/images/hero/5.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="page1-hero-elem3 pt-[3vw] h-full flex items-end relative z-10 shrink-0 left-[-28%]"
+          >
+            <div class="swiper mySwiper w-[50vw]">
+              <div class="swiper-wrapper text-end">
+                <div class="swiper-slide text-[10.5vw] leading-none">
+                  DESIGNER
+                </div>
+                <div class="swiper-slide text-[10.5vw] leading-none">
+                  DEVELOPER
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="page1-footer flex justify-between px-[3vw] items-end h-[13vh]"
+        >
+          <h3>44°25'57″N 26°06'14″E</h3>
+          <h3 class="font-[600] ml-[-4vw]">Available for work</h3>
+          <h3 class="time font-[500]">0</h3>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

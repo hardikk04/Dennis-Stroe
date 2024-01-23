@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: regular;
+  src: url(./NeueMontreal-Regular.woff2);
+}
+@font-face {
+  font-family: light;
+  src: url(./SchnyderCondL-Light-Web.woff2);
+}
+
+.light {
+  font-family: light;
+}
+
+.regular {
+  font-family: regular;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.swiper {
+  width: 40vw;
+  height: 20vh;
+}
+
+.swiper-slide {
+  font-family: light;
+}
+
+.page1-hero-center .swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.page1-hero-center .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
